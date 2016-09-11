@@ -1,0 +1,418 @@
+body {
+    background-image: linear-gradient(to bottom, #080811 15%, #131527 38%, #2a2e55 72%, #f1f2f4 100%) !important;
+    background-color: #f1f2f4;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+div.bdg-wrapper {
+    background-color: rgba(0, 0, 0, 0.2) !important;
+    background-image: none !important;
+}
+
+div.HYPE_scene {
+    background-color: transparent !important;
+}
+
+a.mobile-home-link {
+    display: block;
+    margin: 0 auto;
+    width: 120px;
+}
+
+section.post > img.center-block {
+    width: 100%;
+}
+
+ul.dropdown-menu > li > a {
+    padding: 10px 20px;
+    font-weight: bold;
+    color: #a665b1;
+}
+
+ul.dropdown-menu > li > a > i {
+    padding: 0 10px 0 0;
+    color: #333;
+}
+
+@media (min-width: 992px) {
+    .navbar #navigation.nav > li {
+        min-width: 90px;
+    }
+}
+
+button.navbar-toggle {
+    border: none;
+}
+
+button.navbar-toggle > img#icon-login {
+    margin: 0;
+}
+
+span.alert-heading {
+    display: inline-block;
+    color: #c2c2c2;
+    float: left;
+    text-transform: uppercase;
+    margin-right: 10px;
+    font-weight: bold;
+    font-size: 8pt;
+}
+
+span.streaming-user {
+    float: none;
+    margin:0 10px;
+    color: #6f6f6f;
+    text-transform: none;
+}
+.alert-info {
+    background-color: transparent;
+    border-color: #07cffa;
+    color: #e2e2e2;
+}
+
+aside > div {
+    padding: 10px 15px 15px;
+    background-color: #fff;
+    display: block;
+    margin: 0;
+}
+
+img.profile-icon {
+    float: left;
+}
+
+aside > div > h5 {
+    color: #000;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+}
+
+aside > div > h5 > span.mobcrush-play-detail,
+aside > div > h5 > span.play-detail{
+    margin-left: 10px;
+    padding: 0 15px;
+    text-transform: none;
+    font-size: 14pt;
+    color: #a665b1;
+}
+
+aside > div > h5 > span.user-detail {
+    font-size: 11pt;
+    font-weight: 300;
+}
+
+button.btn-inpvp, a.btn-inpvp {
+    padding: 10px 25px;
+    color: #fafafa;
+    border: 1px solid #fafafa;
+    background-color: #a665b1;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 8pt;
+    border-radius: 2px;
+}
+
+button.btn-inpvp:hover, a.btn-inpvp:hover {
+    color: #fafafa;
+    background-color: #3f2244;
+}
+
+button.btn-inpvp-big, a.btn-inpvp-big {
+    padding: 25px 25px;
+}
+
+article h2 {
+    margin: 15px 0;
+    font-size: 12pt;
+}
+
+article p {
+    padding: 0 10px;
+}
+
+ul.no-style {
+    list-style: none;
+}
+
+span.label-code {
+    font-size: 14pt;
+    padding: 5px;
+    display: inline-block;
+}
+
+img.staff-img {
+    max-width: 150px;
+}
+
+@media (max-width: 768px) {
+    #vote-banner {
+        margin-left: auto !important;
+        margin-right: auto !important;
+    }
+}
+ul {
+    background-color: transparent;
+}
+
+.system-status {
+    padding: 0;
+}
+
+.system-status li {
+    display:block;
+    padding: 15px;
+    background-color: rgba(150,150,150, 0.3);
+    width: 100%;
+}
+
+.system-status li:first-child {
+    padding: 15px;
+    border-bottom: 2px solid #8a8a8a;
+    background-color: #fff;
+}
+
+.no-highlight li {
+    background-color: #fff !important;
+}
+
+.no-highlight li:first-child {
+    border-bottom: 1px solid #c7c7cb;
+}
+
+/*.system-status:after {*/
+/*content: " ";*/
+/*z-index: 10;*/
+/*display: block;*/
+/*position: absolute;*/
+/*height: 230px;*/
+/*width: 95%;*/
+/*top: 300px;*/
+/*left: 0;*/
+/*right: 0;*/
+/*background: rgba(255, 255, 255, 0.7);*/
+/*}*/
+
+dl.dl-horizontal {
+    font-family: "museo-sans", sans-serif;
+    font-weight: 300;
+    font-szie: 14px;
+    line-height: 24px;
+}
+
+dl.dl-horizontal > dt {
+    width: 120px;
+}
+
+dl.dl-horizontal > dd {
+    margin-left: 130px;
+}
+
+section.full-width {
+    width: 100% !important;
+    max-width: none !important;
+}
+
+div.alert {
+    margin-bottom: 0;
+}
+
+div.alert-danger a {
+    color: #a94442;
+}
+
+div.alert-danger a:hover {
+    color: #502624;
+    text-decoration: none;
+}
+
+section#mobcrush-account {
+    background-color: #2a2a2a !important;
+    color: #ffec00 !important;
+}
+
+section#mobcrush-account h2 {
+    color: #ffec00 !important;
+}
+
+section#mobcrush-account button.btn-inpvp, section#mobcrush-account a {
+    color: #ffec00 !important;
+}
+
+section#mobcrush-account a:hover {
+    color: rgba(255, 231, 0, 0.31) !important;
+    text-decoration: none;
+}
+
+section#mobcrush-account button.btn-inpvp {
+    border: 1px solid #ffec00 !important;
+    background-color: #2a2a2a;
+}
+
+section#mobcrush-account button.btn-inpvp:hover {
+    color: #2a2a2a !important;
+    border: 1px solid #2a2a2a !important;
+    background-color: #ffec00 !important;
+}
+
+.twitter-feed {
+    min-height: 400px;
+    background-color: transparent;
+}
+
+.twitter-feed li {
+    background-color: #fff;
+}
+
+.latest-stream {
+    position: relative;
+    margin: 0;
+    background: #fff;
+    list-style: none;
+    padding: 0;
+    font-family: "museo-sans", sans-serif;
+    font-weight: 700;
+    font-size: 14px
+}
+
+.latest-stream li {
+    padding: 13px;
+    border-bottom: 1px solid #c7c7cb;
+    line-height: 22px
+}
+
+.latest-stream li:first-of-type {
+    padding: 13px;
+}
+
+.latest-stream li:last-child {
+    padding: 0;
+    line-height: normal;
+    border: none;
+}
+
+.latest-stream a img {
+    width: 100%;
+}
+
+div.play-overlay {
+    background: url('/img/icon/play.png') center center no-repeat;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    width: 70px;
+    height: 70px;
+    margin: -35px 0 0 -35px;
+    z-index: 10;
+}
+
+.mobcrush {
+    display: inline-block;
+    background-color: #2a2a2a;
+    color: #ffec00;
+    padding: 5px 10px;
+    font-weight: bold;
+}
+
+h1#mobcrush-sponsor:after {
+    content: "powered by mobcrush";
+    position: relative;
+    font-size: 10pt;
+    margin-left: 20px;
+    background-color: #2a2a2a;
+    padding: 10px;
+    color: #ffec00;
+    text-transform: none;
+}
+
+img.gamemode-logo {
+    width: 100%;
+}
+
+article.stream-video {
+    position: relative;
+    margin: 15px 0;
+    min-height: 240px;
+}
+
+a#mobcrush-stream-link {
+    display: block;
+    height: 100%;
+    width: 100%;
+}
+
+div.stream-video--overlay {
+    position: absolute;
+    display: block;
+    padding: 5px;
+    min-width: 50%;
+    max-width: 85%;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+span.stream-video--overlay--username {
+    float: left;
+    font-size: 9pt;
+    color: #ffec00;
+    font-weight: bold;
+    display: inline-block;
+    margin: 0 2px;
+}
+
+span.stream-video--overlay--game {
+    font-size: 9pt;
+    float: left;
+    color: #bfbfbf;
+    font-weight: normal;
+    display: inline-block;
+    margin: 0 2px;
+}
+
+span.stream-video--overlay--title {
+    float: left;
+    clear: both;
+    color: #bfbfbf;
+    font-size: 11pt;
+    font-weight: bold;
+}
+
+span.stream-video--overlay--clear {
+    clear: both;
+    display: block;
+}
+
+span.stream-video--overlay--live {
+    display: none;
+    float: left;
+    color: #e8e8e8;
+    padding: 0 5px;
+    margin: 0 5px 0 0;
+    font-weight: bold;
+    background-color: #a665b1;
+}
+
+span.stream-video--overlay--views {
+    float: left;
+    display: block;
+    color: #bfbfbf;
+}
+
+span.stream-video--overlay--likes {
+    float: left;
+    margin-left: 15px;
+    display: block;
+    color: #bfbfbf;
+}
+
+img.stream-video--img {
+    width: 100%;
+}
+
+span.inpvp {
+    display: inline-block;
+    color: #e8e8e8;
+    padding: 5px;
+    font-weight: bold;
+    background-color: #a665b1;
+}
